@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.profile {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.activity-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1877f2;
+    margin-left: 19rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.activity-button:hover {
+    background-color: #145292;
+}
